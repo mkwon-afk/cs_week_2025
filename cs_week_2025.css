@@ -84,7 +84,7 @@ body {
     padding: 4rem 0;
     text-align: center;
     position: relative;
-    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 50%, #fef3c7 100%);
+    background: linear-gradient(135deg, #dc2626 0%, #b91c1c 50%, #991b1b 100%);
     overflow: hidden;
 }
 
@@ -96,19 +96,20 @@ body {
 .hero-title {
     font-size: 3rem;
     font-weight: 700;
-    color: #dc2626;
+    color: white;
     margin-bottom: 1rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     animation: titleGlow 2s ease-in-out infinite alternate;
 }
 
 .hero-subtitle {
     font-size: 1.3rem;
-    color: #4b5563;
+    color: #fef3c7;
     margin-bottom: 2rem;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
 .hero-dates {
@@ -118,12 +119,14 @@ body {
     gap: 10px;
     font-size: 1.1rem;
     font-weight: 600;
-    color: #dc2626;
-    background: rgba(255, 255, 255, 0.8);
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
     padding: 12px 24px;
     border-radius: 25px;
     display: inline-flex;
-    box-shadow: 0 4px 15px rgba(220, 38, 38, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .floating-elements {
@@ -478,8 +481,8 @@ body {
 }
 
 @keyframes titleGlow {
-    0% { text-shadow: 2px 2px 4px rgba(0,0,0,0.1); }
-    100% { text-shadow: 2px 2px 8px rgba(220, 38, 38, 0.3); }
+    0% { text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+    100% { text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.3); }
 }
 
 @keyframes pulse {
