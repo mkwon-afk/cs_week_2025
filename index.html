@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Service Week 2025 - Red Hat Excellence</title>
+    <link rel="stylesheet" href="cs_week_2025.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-headset"></i>
+                    <h1>Customer Service Week 2025</h1>
+                </div>
+                <div class="celebration-badge">
+                    <span class="badge-text">🎉 Red Hat Excellence 🎉</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Celebrating Customer Service Excellence!</h2>
+                <p class="hero-subtitle">Join us for a week of fun daily quizzes and a chance to win in our lucky draws!</p>
+                <div class="hero-dates">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>October 6-10, 2025</span>
+                </div>
+            </div>
+            <div class="floating-elements">
+                <div class="floating-icon">🎈</div>
+                <div class="floating-icon">🎊</div>
+                <div class="floating-icon">⭐</div>
+                <div class="floating-icon">🎯</div>
+                <div class="floating-icon">🏆</div>
+                <div class="floating-icon">🧩</div>
+                <div class="floating-icon">🎮</div>
+                <div class="floating-icon">🎉</div>
+                <div class="floating-icon">✨</div>
+                <div class="floating-icon">🎁</div>
+                <div class="floating-icon">🎪</div>
+                <div class="floating-icon">🎭</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Daily Quiz Section -->
+    <section class="daily-quiz-section">
+        <div class="container">
+            <h2 class="section-title">Daily Quiz</h2>
+            <div class="quiz-grid">
+                <div class="quiz-card">
+                    <div class="quiz-icon">📚</div>
+                    <h3>History & Fun Facts</h3>
+                    <div class="quiz-date">Monday, October 6</div>
+                    <p>Explore fascinating historical events and fun facts that shaped our world.</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScheemulqnax2qGcfzygXhQNFCEP_luNnFkLqN818qkddzQrA/viewform?usp=send_form" target="_blank" class="quiz-btn" data-date="2025-10-06">Start Quiz</a>
+                </div>
+                <div class="quiz-card">
+                    <div class="quiz-icon">👨‍💼</div>
+                    <h3>Customer Service Leaders</h3>
+                    <div class="quiz-date">Tuesday, October 7</div>
+                    <p>Celebrate inspiring leaders in customer service and their impactful quotes.</p>
+                    <button class="quiz-btn" onclick="startDailyQuiz('tuesday')" data-date="2025-10-07">Start Quiz</button>
+                </div>
+                <div class="quiz-card">
+                    <div class="quiz-icon">🎬</div>
+                    <h3>Pop Culture & Movies</h3>
+                    <div class="quiz-date">Wednesday, October 8</div>
+                    <p>Dive into the latest trends in pop culture and classic movies that defined eras.</p>
+                    <button class="quiz-btn" onclick="startDailyQuiz('wednesday')" data-date="2025-10-08">Start Quiz</button>
+                </div>
+                <div class="quiz-card">
+                    <div class="quiz-icon">📊</div>
+                    <h3>Fun Stats & Trivia</h3>
+                    <div class="quiz-date">Thursday, October 9</div>
+                    <p>Discover interesting statistics and trivia that will surprise and engage.</p>
+                    <button class="quiz-btn" onclick="startDailyQuiz('thursday')" data-date="2025-10-09">Start Quiz</button>
+                </div>
+                <div class="quiz-card">
+                    <div class="quiz-icon">🎩</div>
+                    <h3>Red Hat Legends</h3>
+                    <div class="quiz-date">Friday, October 10</div>
+                    <p>Focus on Red Hat's unique culture and internal events that foster community.</p>
+                    <button class="quiz-btn" onclick="startDailyQuiz('friday')" data-date="2025-10-10">Start Quiz</button>
+                </div>
+                <div class="quiz-card announcement-card">
+                    <div class="quiz-icon">🏆</div>
+                    <h3>Lucky Draw Winners</h3>
+                    <div class="quiz-date">Monday, October 13</div>
+                    <p>Lucky draw winners will be announced on Monday following the week. Stay tuned for exciting prizes!</p>
+                    <div class="announcement-badge">Coming Soon!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="inspirational-quote">
+                    <blockquote>
+                        "Customer service shouldn't just be a department; it should be the entire company."
+                    </blockquote>
+                    <cite>- Tony Hsieh</cite>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Red Hat Customer Service Week. Celebrating excellence in service.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Game Modals -->
+    <div id="triviaModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('triviaModal')">&times;</span>
+            <h2 id="triviaTitle">Customer Service Trivia</h2>
+            <div id="triviaQuestion"></div>
+            <div id="triviaAnswers"></div>
+            <div id="triviaScore">Score: 0</div>
+        </div>
+    </div>
+
+    <div id="puzzleModal" class="modal">
+        <div class="modal-content puzzle-modal">
+            <span class="close" onclick="closeModal('puzzleModal')">&times;</span>
+            <h2 id="puzzleTitle">Team Puzzle Challenge</h2>
+            <div id="puzzleQuestion"></div>
+            <div id="puzzleAnswer"></div>
+            <div id="puzzleHints"></div>
+            <div id="puzzleScore">Score: 0/5</div>
+            <div id="puzzleProgress">Puzzle 1 of 5</div>
+        </div>
+    </div>
+
+    <script src="cs_week_2025.js"></script>
+</body>
+</html>
