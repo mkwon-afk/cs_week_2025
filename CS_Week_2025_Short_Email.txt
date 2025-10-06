@@ -1,0 +1,37 @@
+Subject: 🎉 CS Week 2025 - Monday Quiz is LIVE! Join Now!
+
+Hi Team,
+
+**Customer Service Week 2025** is here! 🎊
+
+**TODAY (Monday, Oct 6):** History & Fun Facts Quiz is now live!
+
+## Quick Links:
+- **Main Page**: http://125.184.191.59:3000/templates/cs_week_2025.html
+- **Monday Quiz**: https://docs.google.com/forms/d/e/1FAIpQLScheemulqnax2qGcfzygXhQNFCEP_luNnFkLqN818qkddzQrA/viewform?usp=send_form
+
+## This Week's Schedule:
+- **Mon**: History & Fun Facts Quiz ⭐ LIVE NOW
+- **Tue**: Customer Service Leaders Challenge
+- **Wed**: Pop Culture & Movies Trivia  
+- **Thu**: Fun Stats & Trivia Game
+- **Fri**: Red Hat Legends Quiz
+
+## Prizes:
+🏆 Lucky draw winners announced Monday, Oct 13th!
+
+## Features:
+- Global timezone support (APAC, NASA, UTC)
+- Mobile-friendly design
+- Interactive animations
+- Real-time availability
+
+**Ready to test your knowledge?** Click the Monday Quiz link above!
+
+Questions? Contact: cs-week-2025@redhat.com
+
+Let's celebrate customer service excellence together! 🚀
+
+---
+CS Week 2025 Team
+Red Hat

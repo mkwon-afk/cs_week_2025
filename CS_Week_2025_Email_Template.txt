@@ -1,0 +1,85 @@
+Subject: 🎉 Customer Service Week 2025 - Join Our Daily Quizzes & Win Prizes!
+
+Dear Red Hat Associates,
+
+We're excited to announce **Customer Service Week 2025** - a week-long celebration of excellence in customer service! Join us for daily quizzes, fun activities, and exciting prizes.
+
+## 📅 **Event Details**
+- **Dates**: October 6-10, 2025
+- **Format**: Daily interactive quizzes
+- **Prizes**: Lucky draw winners announced Monday, October 13th
+- **Participation**: Open to all Red Hat associates globally
+
+## 🎮 **Daily Schedule**
+- **Monday, Oct 6**: History & Fun Facts Quiz
+- **Tuesday, Oct 7**: Customer Service Leaders Challenge
+- **Wednesday, Oct 8**: Pop Culture & Movies Trivia
+- **Thursday, Oct 9**: Fun Stats & Trivia Game
+- **Friday, Oct 10**: Red Hat Legends Quiz
+
+## 🌍 **Global Access**
+Our quizzes are designed with global timezone support, ensuring fair access for associates in:
+- **APAC** (UTC+8 to UTC+12)
+- **NASA/EST** (UTC-5 to UTC+0)
+- **UTC** regions
+
+## 🚀 **How to Participate**
+
+### **Option 1: Direct Access**
+Visit our interactive page: **http://125.184.191.59:3000/templates/cs_week_2025.html**
+
+### **Option 2: GitHub Repository**
+Access the project: **https://github.com/mkwon-afk/cs_week_2025**
+
+### **Option 3: Monday's Quiz (TODAY!)**
+Direct link to Monday's History & Fun Facts Quiz:
+**https://docs.google.com/forms/d/e/1FAIpQLScheemulqnax2qGcfzygXhQNFCEP_luNnFkLqN818qkddzQrA/viewform?usp=send_form**
+
+## 🎯 **Today's Focus: Monday, October 6**
+**History & Fun Facts Quiz** is now live! Test your knowledge of:
+- Red Hat company history
+- Linux and open source facts
+- Technology milestones
+- Fun industry trivia
+
+## 🏆 **Scoring & Prizes**
+- Complete quizzes to earn points
+- Lucky draw winners will be announced on **Monday, October 13th**
+- Prizes include exciting rewards for top performers
+- All participants are eligible for the lucky draw
+
+## 📱 **Features**
+- **Responsive Design**: Works on desktop and mobile
+- **Real-time Availability**: Quizzes unlock on their respective dates
+- **Interactive Experience**: Engaging animations and celebrations
+- **Global Accessibility**: Timezone-aware scheduling
+
+## 🤝 **Team Participation**
+We encourage team participation! Share your scores, discuss questions, and celebrate together. This is a great opportunity to:
+- Learn about customer service excellence
+- Test your knowledge
+- Connect with colleagues globally
+- Have fun while celebrating our CS culture
+
+## 📞 **Support**
+If you have any questions or technical issues, please contact:
+- **Email**: cs-week-2025@redhat.com
+- **Technical Support**: Available throughout the week
+
+## 🎊 **Let's Celebrate Together!**
+Customer Service Week is about recognizing the incredible work our teams do every day. Whether you're in Support, Sales, Engineering, or any other department, your commitment to customer excellence makes Red Hat great.
+
+**"Customer service shouldn't just be a department; it should be the entire company."** - Tony Hsieh
+
+Join us in celebrating this week of excellence!
+
+---
+
+**Ready to start?** Click here: **http://125.184.191.59:3000/templates/cs_week_2025.html**
+
+Best regards,
+Customer Service Week 2025 Team
+Red Hat
+
+---
+*This email is sent to all Red Hat associates. For questions or to unsubscribe from future CS Week communications, please contact cs-week-2025@redhat.com*
