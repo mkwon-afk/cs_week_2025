@@ -67,7 +67,12 @@ function checkQuizAvailability() {
             
             // Restore href for anchor elements
             if (button.tagName === 'A') {
-                button.setAttribute('href', 'https://docs.google.com/forms/d/e/1FAIpQLScheemulqnax2qGcfzygXhQNFCEP_luNnFkLqN818qkddzQrA/viewform?usp=send_form');
+                const quizDate = button.getAttribute('data-date');
+                if (quizDate === '2025-10-06') {
+                    button.setAttribute('href', 'https://docs.google.com/forms/d/e/1FAIpQLScheemulqnax2qGcfzygXhQNFCEP_luNnFkLqN818qkddzQrA/viewform?usp=send_form');
+                } else if (quizDate === '2025-10-07') {
+                    button.setAttribute('href', 'https://forms.gle/5ZgHK8sQbkJkxwVz7');
+                }
                 button.setAttribute('target', '_blank');
                 button.style.pointerEvents = 'auto';
             }
