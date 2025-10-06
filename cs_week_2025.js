@@ -130,37 +130,55 @@ const dailyQuizzes = {
         ]
     },
     tuesday: {
-        title: "Tuesday - Customer Service Leaders Challenge",
+        title: "Tuesday - Customer Service Philosophy Quiz",
         questions: [
             {
-                question: "Who said: 'The customer's perception is your reality'?",
-                answers: ["Kate Zabriskie", "Tony Hsieh", "Sam Walton", "Bill Gates"],
+                question: "What is the fundamental principle of customer service philosophy?",
+                answers: ["Speed of response", "Customer-centric approach", "Cost reduction", "Process efficiency"],
+                correct: 1,
+                explanation: "Customer-centric approach is the fundamental principle - putting the customer at the center of all decisions and actions."
+            },
+            {
+                question: "Which philosophy emphasizes treating customers as you would want to be treated?",
+                answers: ["Golden Rule", "Platinum Rule", "Diamond Rule", "Silver Rule"],
                 correct: 0,
-                explanation: "Kate Zabriskie, a customer service expert, emphasized the importance of customer perception."
+                explanation: "The Golden Rule in customer service: 'Treat others as you would want to be treated' forms the foundation of empathetic service."
             },
             {
-                question: "Which leader transformed Zappos' customer service culture?",
-                answers: ["Tony Hsieh", "Jeff Bezos", "Elon Musk", "Steve Jobs"],
-                correct: 0,
-                explanation: "Tony Hsieh built Zappos around exceptional customer service culture."
+                question: "What does 'Customer Lifetime Value' philosophy focus on?",
+                answers: ["Single transaction profit", "Long-term customer relationships", "Quick problem resolution", "Service speed"],
+                correct: 1,
+                explanation: "Customer Lifetime Value philosophy focuses on building long-term relationships rather than maximizing single transactions."
             },
             {
-                question: "What percentage of customers will share a positive experience?",
-                answers: ["70%", "80%", "85%", "90%"],
-                correct: 2,
-                explanation: "85% of customers will share positive experiences with others."
-            },
-            {
-                question: "Who said: 'Make a customer, not a sale'?",
-                answers: ["Katherine Barchetti", "Tony Hsieh", "Sam Walton", "Kate Zabriskie"],
-                correct: 0,
-                explanation: "Katherine Barchetti emphasized building relationships over transactions."
-            },
-            {
-                question: "What is the most important aspect of customer service?",
-                answers: ["Speed", "Empathy", "Accuracy", "All of the above"],
+                question: "Which philosophy states that 'The customer is always right'?",
+                answers: ["Always true", "Sometimes true", "Never true", "Depends on the situation"],
                 correct: 3,
-                explanation: "Great customer service requires a balance of speed, empathy, and accuracy."
+                explanation: "While customers' feelings and experiences are always valid, the philosophy depends on the situation and should be balanced with business needs."
+            },
+            {
+                question: "What is the core philosophy behind 'First Call Resolution'?",
+                answers: ["Speed over quality", "Quality over speed", "Resolve issues on the first contact", "Escalate quickly"],
+                correct: 2,
+                explanation: "First Call Resolution philosophy emphasizes resolving customer issues completely on the first contact to maximize satisfaction."
+            },
+            {
+                question: "Which philosophy emphasizes continuous improvement in customer service?",
+                answers: ["Kaizen", "Six Sigma", "Lean", "All of the above"],
+                correct: 3,
+                explanation: "All three philosophies (Kaizen, Six Sigma, Lean) emphasize continuous improvement and optimization of customer service processes."
+            },
+            {
+                question: "What does the 'Moments of Truth' philosophy refer to?",
+                answers: ["Critical customer touchpoints", "First impressions", "Problem resolution", "All customer interactions"],
+                correct: 0,
+                explanation: "Moments of Truth philosophy identifies critical touchpoints where customers form lasting impressions about service quality."
+            },
+            {
+                question: "Which philosophy focuses on empowering frontline employees?",
+                answers: ["Top-down management", "Employee empowerment", "Process standardization", "Centralized control"],
+                correct: 1,
+                explanation: "Employee empowerment philosophy gives frontline staff the authority and tools to make decisions that benefit customers."
             }
         ]
     },
