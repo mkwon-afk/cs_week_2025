@@ -36,6 +36,12 @@ function checkQuizAvailability() {
         // Quiz is available if it's available in any time zone
         const isAvailable = isAvailableUTC || isAvailableAPAC || isAvailableNASA;
         
+        // Check if quiz date has passed (more than 1 day old)
+        const quizDateObj = new Date(quizDate);
+        const todayObj = new Date();
+        const daysDifference = Math.floor((todayObj - quizDateObj) / (1000 * 60 * 60 * 24));
+        const isQuizClosed = daysDifference > 1; // Quiz closes 1 day after its date
+        
         if (!isAvailable) {
             // Quiz is not yet available
             button.textContent = 'Coming Soon';
@@ -52,8 +58,24 @@ function checkQuizAvailability() {
                 button.removeAttribute('href');
                 button.style.pointerEvents = 'none';
             }
+        } else if (isQuizClosed) {
+            // Quiz is closed (past its date)
+            button.textContent = 'Quiz Closed';
+            button.classList.add('coming-soon');
+            button.disabled = true;
+            
+            // Remove onclick for button elements
+            if (button.tagName === 'BUTTON') {
+                button.removeAttribute('onclick');
+            }
+            
+            // Remove href for anchor elements
+            if (button.tagName === 'A') {
+                button.removeAttribute('href');
+                button.style.pointerEvents = 'none';
+            }
         } else {
-            // Quiz is available
+            // Quiz is available (on its date or within 1 day)
             button.textContent = 'Start Quiz';
             button.classList.remove('coming-soon');
             button.disabled = false;
