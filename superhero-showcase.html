@@ -26,22 +26,53 @@
 
         .header {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 50px;
             animation: fadeInDown 1s ease-out;
+            background: linear-gradient(135deg, rgba(220, 38, 38, 0.1), rgba(255, 255, 255, 0.9));
+            padding: 40px 30px;
+            border-radius: 20px;
+            border: 3px solid rgba(220, 38, 38, 0.3);
+            box-shadow: 0 10px 30px rgba(220, 38, 38, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(220, 38, 38, 0.1), transparent);
+            animation: shimmer 3s infinite;
         }
 
         .header h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
-            animation: glow 2s ease-in-out infinite alternate;
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+            animation: glow 2s ease-in-out infinite alternate, bounce 3s infinite;
             color: #dc2626;
+            position: relative;
+            z-index: 2;
+            transform: perspective(1000px) rotateX(10deg);
         }
 
         .header p {
-            font-size: 1.2rem;
-            opacity: 0.8;
-            color: #4b5563;
+            font-size: 1.4rem;
+            opacity: 0.9;
+            color: #1f2937;
+            font-weight: 600;
+            line-height: 1.6;
+            position: relative;
+            z-index: 2;
+            animation: slideInUp 1.5s ease-out 0.5s both;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px solid rgba(220, 38, 38, 0.2);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
 
         .superhero-grid {
@@ -118,9 +149,10 @@
 
         .floating-icon {
             position: absolute;
-            font-size: 2rem;
-            opacity: 0.1;
-            animation: float 6s ease-in-out infinite;
+            font-size: 2.5rem;
+            opacity: 0.15;
+            animation: float 6s ease-in-out infinite, pulse 4s infinite;
+            filter: drop-shadow(0 0 10px rgba(220, 38, 38, 0.3));
         }
 
         .stats-section {
@@ -159,6 +191,15 @@
         .stat-label {
             font-size: 1rem;
             margin-top: 5px;
+        }
+
+        @keyframes shimmer {
+            0% {
+                transform: translateX(-100%) translateY(-100%) rotate(45deg);
+            }
+            100% {
+                transform: translateX(100%) translateY(100%) rotate(45deg);
+            }
         }
 
         @keyframes fadeInDown {
@@ -276,6 +317,12 @@
         <div class="floating-icon" style="top: 70%; right: 10%; animation-delay: 3s;">💫</div>
         <div class="floating-icon" style="top: 30%; left: 50%; animation-delay: 4s;">🌟</div>
         <div class="floating-icon" style="top: 80%; left: 20%; animation-delay: 5s;">✨</div>
+        <div class="floating-icon" style="top: 15%; left: 80%; animation-delay: 6s;">🎭</div>
+        <div class="floating-icon" style="top: 45%; right: 5%; animation-delay: 7s;">🎪</div>
+        <div class="floating-icon" style="top: 75%; left: 60%; animation-delay: 8s;">🎨</div>
+        <div class="floating-icon" style="top: 25%; left: 30%; animation-delay: 9s;">🎯</div>
+        <div class="floating-icon" style="top: 55%; right: 25%; animation-delay: 10s;">🚀</div>
+        <div class="floating-icon" style="top: 85%; right: 40%; animation-delay: 11s;">💎</div>
     </div>
 
     <div class="container">
