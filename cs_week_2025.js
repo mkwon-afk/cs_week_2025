@@ -191,34 +191,34 @@ const dailyQuizzes = {
         title: "Wednesday - Pop Culture & Movies Trivia",
         questions: [
             {
-                question: "Which movie features a character saying 'May the Force be with you'?",
-                answers: ["Star Wars", "Star Trek", "Guardians of the Galaxy", "The Matrix"],
+                question: "Which movie features a hotel concierge who goes above and beyond for guests, embodying perfect customer service?",
+                answers: ["The Grand Budapest Hotel", "Hotel Transylvania", "The Shining", "Home Alone 2"],
                 correct: 0,
-                explanation: "This iconic phrase is from the Star Wars franchise."
+                explanation: "The Grand Budapest Hotel showcases exceptional hospitality and customer service through its concierge character."
             },
             {
-                question: "What is the highest-grossing movie of all time?",
-                answers: ["Avatar", "Avengers: Endgame", "Titanic", "Star Wars: The Force Awakens"],
-                correct: 0,
-                explanation: "Avatar (2009) holds the record for highest-grossing movie."
-            },
-            {
-                question: "Which streaming service was launched by Netflix in 2007?",
-                answers: ["Netflix Streaming", "Netflix Instant", "Netflix Watch", "Netflix Play"],
+                question: "In which TV show does a character famously say 'The customer is always right' while working in retail?",
+                answers: ["The Office", "Superstore", "Parks and Recreation", "Brooklyn Nine-Nine"],
                 correct: 1,
-                explanation: "Netflix launched its streaming service in 2007."
+                explanation: "Superstore features retail workers dealing with customer service challenges and this famous phrase."
             },
             {
-                question: "What social media platform was founded in 2004?",
-                answers: ["Facebook", "Twitter", "Instagram", "LinkedIn"],
-                correct: 0,
-                explanation: "Facebook was founded by Mark Zuckerberg in 2004."
+                question: "Which pop culture icon is known for their exceptional customer service philosophy: 'Make it right'?",
+                answers: ["Oprah Winfrey", "Richard Branson", "Tony Hsieh (Zappos)", "Steve Jobs"],
+                correct: 2,
+                explanation: "Tony Hsieh, former CEO of Zappos, was famous for his customer service philosophy and 'Make it right' approach."
             },
             {
-                question: "Which TV show popularized the phrase 'Winter is coming'?",
-                answers: ["Game of Thrones", "The Walking Dead", "Breaking Bad", "Stranger Things"],
+                question: "Which movie features a character who transforms a failing business by focusing on customer satisfaction?",
+                answers: ["The Pursuit of Happyness", "Jerry Maguire", "The Intern", "The Founder"],
+                correct: 2,
+                explanation: "The Intern shows how focusing on customer needs and service can transform a business."
+            },
+            {
+                question: "Which TV show character is famous for saying 'How may I help you?' with exceptional enthusiasm?",
+                answers: ["Leslie Knope (Parks and Rec)", "Phoebe Buffay (Friends)", "Sheldon Cooper (Big Bang)", "Dwight Schrute (The Office)"],
                 correct: 0,
-                explanation: "This phrase is famously associated with Game of Thrones."
+                explanation: "Leslie Knope from Parks and Recreation embodies enthusiastic public service and helping others."
             }
         ]
     },
