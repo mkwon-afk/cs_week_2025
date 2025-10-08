@@ -455,11 +455,14 @@ body {
 
 .office-photo {
     max-width: 100%;
+    max-height: 250px;
+    width: auto;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(220, 38, 38, 0.2);
     border: 3px solid #fecaca;
     transition: all 0.3s ease;
+    object-fit: cover;
 }
 
 .office-photo:hover {
