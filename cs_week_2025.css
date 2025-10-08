@@ -441,6 +441,45 @@ body {
     font-weight: 700;
 }
 
+.event-photo {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.office-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(220, 38, 38, 0.2);
+    border: 3px solid #fecaca;
+    transition: all 0.3s ease;
+}
+
+.office-photo:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 30px rgba(220, 38, 38, 0.3);
+}
+
+.photo-placeholder {
+    background: linear-gradient(135deg, #fef2f2, #fce7e7);
+    border: 2px dashed #dc2626;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+.placeholder-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #dc2626;
+}
+
+.photo-placeholder p {
+    color: #dc2626;
+    font-weight: 600;
+    margin: 0;
+}
+
 .event-highlight {
     display: flex;
     align-items: center;
