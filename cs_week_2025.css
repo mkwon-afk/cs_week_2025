@@ -361,6 +361,103 @@ body {
     animation: pulse 2s infinite;
 }
 
+/* Office Events Section */
+.office-events-section {
+    background: linear-gradient(135deg, #fef2f2 0%, #fce7e7 100%);
+    padding: 4rem 0;
+    border-top: 3px solid #dc2626;
+    border-bottom: 3px solid #dc2626;
+}
+
+.office-events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.office-event-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(220, 38, 38, 0.1);
+    border: 2px solid #fecaca;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.office-event-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #dc2626, #ef4444, #dc2626);
+}
+
+.office-event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(220, 38, 38, 0.2);
+    border-color: #dc2626;
+}
+
+.country-flag {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.office-event-card h3 {
+    color: #dc2626;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 4px rgba(220, 38, 38, 0.1);
+}
+
+.office-event-card .event-date {
+    color: #dc2626;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    background: rgba(220, 38, 38, 0.1);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.office-event-card p {
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.office-event-card p strong {
+    color: #dc2626;
+    font-weight: 700;
+}
+
+.event-highlight {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: linear-gradient(135deg, #dc2626, #ef4444);
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3);
+}
+
+.highlight-icon {
+    font-size: 1.2rem;
+}
+
 /* Footer */
 .footer {
     background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
