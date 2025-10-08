@@ -446,11 +446,15 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
+    justify-items: center;
 }
 
 .event-photo {
     margin: 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .office-photo {
