@@ -225,79 +225,67 @@ const dailyQuizzes = {
         ]
     },
     thursday: {
-        title: "Thursday - Future of Jobs & Technology Trends",
+        title: "Thursday - Future of Jobs Report 2025",
         questions: [
             {
-                question: "According to the Future of Jobs Report 2025, what percentage of jobs are expected to be disrupted by AI and automation?",
-                answers: ["25%", "40%", "60%", "75%"],
+                question: "According to the Future of Jobs Report 2025, how many employers were surveyed globally?",
+                answers: ["500+", "750+", "1,000+", "1,500+"],
+                correct: 2,
+                explanation: "The report surveyed over 1,000 employers representing more than 14 million workers across 22 industry clusters and 55 economies."
+            },
+            {
+                question: "What is the primary focus of the Future of Jobs Report 2025?",
+                answers: ["Only AI impact", "Only economic trends", "Interconnected trends shaping global labour market", "Only demographic shifts"],
+                correct: 2,
+                explanation: "The report offers comprehensive analysis of interconnected trends including technological change, geoeconomic fragmentation, economic uncertainty, demographic shifts, and the green transition."
+            },
+            {
+                question: "Which breakthrough technology is highlighted as reshaping industries across all sectors?",
+                answers: ["Blockchain", "Quantum Computing", "Generative Artificial Intelligence (GenAI)", "Virtual Reality"],
+                correct: 2,
+                explanation: "Generative artificial intelligence (GenAI) is specifically mentioned as reshaping industries and tasks across all sectors."
+            },
+            {
+                question: "How many industry clusters are covered in the Future of Jobs Report 2025?",
+                answers: ["15", "20", "22", "25"],
+                correct: 2,
+                explanation: "The report covers 22 industry clusters across 55 economies, providing comprehensive industry insights."
+            },
+            {
+                question: "What is the time period analyzed in the Future of Jobs Report 2025?",
+                answers: ["2025-2027", "2025-2028", "2025-2029", "2025-2030"],
+                correct: 3,
+                explanation: "The report analyzes the emerging jobs landscape for the 2025-2030 period."
+            },
+            {
+                question: "Which organization publishes the Future of Jobs Report?",
+                answers: ["United Nations", "World Economic Forum", "OECD", "International Labour Organization"],
                 correct: 1,
-                explanation: "The Future of Jobs Report 2025 indicates that approximately 40% of jobs will be disrupted by AI and automation, requiring significant reskilling and adaptation."
+                explanation: "The World Economic Forum publishes the bi-annual Future of Jobs Report."
             },
             {
-                question: "Which skill is predicted to be most in-demand for customer service roles by 2025?",
-                answers: ["Data Analysis", "Emotional Intelligence", "Coding", "Project Management"],
+                question: "What is the frequency of the Future of Jobs Report publication?",
+                answers: ["Annual", "Bi-annual", "Every three years", "Quarterly"],
                 correct: 1,
-                explanation: "Emotional Intelligence is increasingly crucial as AI handles routine tasks, leaving humans to focus on complex emotional interactions and relationship building."
+                explanation: "The World Economic Forum's Future of Jobs Report is published bi-annually (every two years)."
             },
             {
-                question: "What percentage of customer service interactions are expected to be handled by AI chatbots by 2025?",
-                answers: ["30%", "50%", "70%", "90%"],
+                question: "Which data partnerships enhanced the Future of Jobs Report 2025?",
+                answers: ["Only ADP", "ADP, Coursera, Indeed and LinkedIn", "Only LinkedIn", "Only Coursera"],
+                correct: 1,
+                explanation: "The report includes research collaborations and data partnerships with ADP, Coursera, Indeed and LinkedIn."
+            },
+            {
+                question: "What is the main challenge mentioned alongside technological advances?",
+                answers: ["Only economic volatility", "Only environmental challenges", "Multiple converging challenges", "Only societal expectations"],
                 correct: 2,
-                explanation: "Approximately 70% of routine customer service interactions are expected to be handled by AI chatbots, freeing human agents for complex problem-solving."
+                explanation: "Technological advances are converging with economic volatility, geoeconomic realignments, environmental challenges, and evolving societal expectations."
             },
             {
-                question: "Which customer service role is predicted to grow the fastest by 2025?",
-                answers: ["Call Center Agent", "Customer Success Manager", "Technical Support Specialist", "Customer Experience Designer"],
-                correct: 3,
-                explanation: "Customer Experience Designer roles are expected to grow fastest as companies focus on creating seamless, personalized customer journeys."
-            },
-            {
-                question: "What is the expected impact of AI on customer service job satisfaction?",
-                answers: ["Decrease satisfaction", "No change", "Increase satisfaction", "Eliminate jobs"],
+                question: "What does the report emphasize as crucial for navigating future transitions?",
+                answers: ["Individual action only", "Government action only", "Multistakeholder agenda", "Business action only"],
                 correct: 2,
-                explanation: "AI is expected to increase job satisfaction by handling routine tasks, allowing agents to focus on meaningful, complex customer interactions."
-            },
-            {
-                question: "Which technology will most transform customer service by 2025?",
-                answers: ["Virtual Reality", "Augmented Reality", "Natural Language Processing", "All of the above"],
-                correct: 3,
-                explanation: "All three technologies will transform customer service - VR for immersive support, AR for visual assistance, and NLP for better AI interactions."
-            },
-            {
-                question: "What percentage of customer service teams will need AI training by 2025?",
-                answers: ["40%", "60%", "80%", "100%"],
-                correct: 2,
-                explanation: "Approximately 80% of customer service teams will need AI training to effectively collaborate with AI tools and systems."
-            },
-            {
-                question: "Which customer service metric will become most important by 2025?",
-                answers: ["Response Time", "First Call Resolution", "Customer Emotional Satisfaction", "Call Volume"],
-                correct: 2,
-                explanation: "Customer Emotional Satisfaction will become the most important metric as AI handles speed and efficiency, leaving humans to focus on emotional connection."
-            },
-            {
-                question: "What is the predicted growth rate for customer service jobs that require human empathy?",
-                answers: ["10%", "25%", "40%", "60%"],
-                correct: 2,
-                explanation: "Customer service jobs requiring human empathy are expected to grow by 40% as AI handles routine tasks, creating more opportunities for emotional intelligence."
-            },
-            {
-                question: "Which customer service skill will be most valuable for working alongside AI?",
-                answers: ["Typing Speed", "AI Prompt Engineering", "Multilingual Communication", "All of the above"],
-                correct: 3,
-                explanation: "All three skills will be valuable - AI Prompt Engineering for directing AI, Multilingual Communication for global reach, and Typing Speed for efficiency."
-            },
-            {
-                question: "What percentage of customer service leaders will need to understand AI by 2025?",
-                answers: ["50%", "70%", "90%", "100%"],
-                correct: 3,
-                explanation: "100% of customer service leaders will need AI understanding to effectively manage AI-human hybrid teams and make strategic decisions."
-            },
-            {
-                question: "Which customer service trend will have the biggest impact on job roles by 2025?",
-                answers: ["Omnichannel Support", "Predictive Analytics", "Personalized Service", "All of the above"],
-                correct: 3,
-                explanation: "All three trends will significantly impact roles - Omnichannel for seamless experiences, Predictive Analytics for proactive service, and Personalized Service for individual attention."
+                explanation: "The report emphasizes the importance of an ambitious, multistakeholder agenda involving workers, businesses, governments, educators, and civil society."
             }
         ]
     },
