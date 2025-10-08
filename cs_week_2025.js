@@ -240,40 +240,64 @@ const dailyQuizzes = {
                 explanation: "Emotional Intelligence is increasingly crucial as AI handles routine tasks, leaving humans to focus on complex emotional interactions and relationship building."
             },
             {
-                question: "What is the expected growth rate for 'green jobs' in the renewable energy sector by 2025?",
-                answers: ["15%", "25%", "35%", "50%"],
-                correct: 2,
-                explanation: "Green jobs in renewable energy are expected to grow by approximately 35% by 2025, reflecting the global shift toward sustainability."
-            },
-            {
-                question: "Which technology is predicted to create the most new jobs by 2025?",
-                answers: ["Artificial Intelligence", "Blockchain", "Quantum Computing", "Augmented Reality"],
-                correct: 0,
-                explanation: "AI is expected to create more jobs than it displaces, particularly in AI training, oversight, and human-AI collaboration roles."
-            },
-            {
-                question: "What percentage of workers will need to reskill by 2025 according to the report?",
+                question: "What percentage of customer service interactions are expected to be handled by AI chatbots by 2025?",
                 answers: ["30%", "50%", "70%", "90%"],
-                correct: 1,
-                explanation: "Approximately 50% of workers will need to reskill by 2025 to adapt to changing job requirements and new technologies."
-            },
-            {
-                question: "Which industry is expected to see the highest job growth in customer-facing roles?",
-                answers: ["Healthcare", "Education", "Retail", "Financial Services"],
-                correct: 0,
-                explanation: "Healthcare is expected to see the highest growth in customer-facing roles due to aging populations and increased demand for personalized care."
-            },
-            {
-                question: "What is the predicted impact of remote work on job opportunities by 2025?",
-                answers: ["Decrease by 20%", "Stay the same", "Increase by 30%", "Increase by 50%"],
                 correct: 2,
-                explanation: "Remote work opportunities are expected to increase by approximately 30% by 2025, expanding access to global talent pools."
+                explanation: "Approximately 70% of routine customer service interactions are expected to be handled by AI chatbots, freeing human agents for complex problem-solving."
             },
             {
-                question: "Which soft skill is becoming increasingly important for future customer service success?",
-                answers: ["Critical Thinking", "Creativity", "Adaptability", "All of the above"],
+                question: "Which customer service role is predicted to grow the fastest by 2025?",
+                answers: ["Call Center Agent", "Customer Success Manager", "Technical Support Specialist", "Customer Experience Designer"],
                 correct: 3,
-                explanation: "All three skills - Critical Thinking, Creativity, and Adaptability - are becoming increasingly important as automation handles routine tasks."
+                explanation: "Customer Experience Designer roles are expected to grow fastest as companies focus on creating seamless, personalized customer journeys."
+            },
+            {
+                question: "What is the expected impact of AI on customer service job satisfaction?",
+                answers: ["Decrease satisfaction", "No change", "Increase satisfaction", "Eliminate jobs"],
+                correct: 2,
+                explanation: "AI is expected to increase job satisfaction by handling routine tasks, allowing agents to focus on meaningful, complex customer interactions."
+            },
+            {
+                question: "Which technology will most transform customer service by 2025?",
+                answers: ["Virtual Reality", "Augmented Reality", "Natural Language Processing", "All of the above"],
+                correct: 3,
+                explanation: "All three technologies will transform customer service - VR for immersive support, AR for visual assistance, and NLP for better AI interactions."
+            },
+            {
+                question: "What percentage of customer service teams will need AI training by 2025?",
+                answers: ["40%", "60%", "80%", "100%"],
+                correct: 2,
+                explanation: "Approximately 80% of customer service teams will need AI training to effectively collaborate with AI tools and systems."
+            },
+            {
+                question: "Which customer service metric will become most important by 2025?",
+                answers: ["Response Time", "First Call Resolution", "Customer Emotional Satisfaction", "Call Volume"],
+                correct: 2,
+                explanation: "Customer Emotional Satisfaction will become the most important metric as AI handles speed and efficiency, leaving humans to focus on emotional connection."
+            },
+            {
+                question: "What is the predicted growth rate for customer service jobs that require human empathy?",
+                answers: ["10%", "25%", "40%", "60%"],
+                correct: 2,
+                explanation: "Customer service jobs requiring human empathy are expected to grow by 40% as AI handles routine tasks, creating more opportunities for emotional intelligence."
+            },
+            {
+                question: "Which customer service skill will be most valuable for working alongside AI?",
+                answers: ["Typing Speed", "AI Prompt Engineering", "Multilingual Communication", "All of the above"],
+                correct: 3,
+                explanation: "All three skills will be valuable - AI Prompt Engineering for directing AI, Multilingual Communication for global reach, and Typing Speed for efficiency."
+            },
+            {
+                question: "What percentage of customer service leaders will need to understand AI by 2025?",
+                answers: ["50%", "70%", "90%", "100%"],
+                correct: 3,
+                explanation: "100% of customer service leaders will need AI understanding to effectively manage AI-human hybrid teams and make strategic decisions."
+            },
+            {
+                question: "Which customer service trend will have the biggest impact on job roles by 2025?",
+                answers: ["Omnichannel Support", "Predictive Analytics", "Personalized Service", "All of the above"],
+                correct: 3,
+                explanation: "All three trends will significantly impact roles - Omnichannel for seamless experiences, Predictive Analytics for proactive service, and Personalized Service for individual attention."
             }
         ]
     },
