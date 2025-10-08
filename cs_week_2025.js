@@ -74,6 +74,8 @@ function checkQuizAvailability() {
                     button.setAttribute('href', 'https://forms.gle/5ZgHK8sQbkJkxwVz7');
                 } else if (quizDate === '2025-10-08') {
                     button.setAttribute('href', 'https://forms.gle/tcretwSf3VKDW1PP6');
+                } else if (quizDate === '2025-10-09') {
+                    button.setAttribute('href', 'https://forms.gle/FgFpafQBpS4iMAt37');
                 }
                 button.setAttribute('target', '_blank');
                 button.style.pointerEvents = 'auto';
