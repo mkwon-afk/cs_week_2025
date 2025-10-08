@@ -225,67 +225,55 @@ const dailyQuizzes = {
         ]
     },
     thursday: {
-        title: "Thursday - Future of Jobs Report 2025",
+        title: "Thursday - Fun Stats & Trivia",
         questions: [
             {
-                question: "According to the Future of Jobs Report 2025, how many employers were surveyed globally?",
-                answers: ["500+", "750+", "1,000+", "1,500+"],
+                question: "What percentage of customers will share a positive experience with others?",
+                answers: ["50%", "70%", "85%", "95%"],
                 correct: 2,
-                explanation: "The report surveyed over 1,000 employers representing more than 14 million workers across 22 industry clusters and 55 economies."
+                explanation: "85% of customers will share positive experiences, making every interaction valuable."
             },
             {
-                question: "What is the primary focus of the Future of Jobs Report 2025?",
-                answers: ["Only AI impact", "Only economic trends", "Interconnected trends shaping global labour market", "Only demographic shifts"],
-                correct: 2,
-                explanation: "The report offers comprehensive analysis of interconnected trends including technological change, geoeconomic fragmentation, economic uncertainty, demographic shifts, and the green transition."
-            },
-            {
-                question: "Which breakthrough technology is highlighted as reshaping industries across all sectors?",
-                answers: ["Blockchain", "Quantum Computing", "Generative Artificial Intelligence (GenAI)", "Virtual Reality"],
-                correct: 2,
-                explanation: "Generative artificial intelligence (GenAI) is specifically mentioned as reshaping industries and tasks across all sectors."
-            },
-            {
-                question: "How many industry clusters are covered in the Future of Jobs Report 2025?",
-                answers: ["15", "20", "22", "25"],
-                correct: 2,
-                explanation: "The report covers 22 industry clusters across 55 economies, providing comprehensive industry insights."
-            },
-            {
-                question: "What is the time period analyzed in the Future of Jobs Report 2025?",
-                answers: ["2025-2027", "2025-2028", "2025-2029", "2025-2030"],
-                correct: 3,
-                explanation: "The report analyzes the emerging jobs landscape for the 2025-2030 period."
-            },
-            {
-                question: "Which organization publishes the Future of Jobs Report?",
-                answers: ["United Nations", "World Economic Forum", "OECD", "International Labour Organization"],
+                question: "How many seconds does it take for customers to form a first impression?",
+                answers: ["3 seconds", "7 seconds", "15 seconds", "30 seconds"],
                 correct: 1,
-                explanation: "The World Economic Forum publishes the bi-annual Future of Jobs Report."
+                explanation: "Customers form first impressions in just 7 seconds - make them count!"
             },
             {
-                question: "What is the frequency of the Future of Jobs Report publication?",
-                answers: ["Annual", "Bi-annual", "Every three years", "Quarterly"],
-                correct: 1,
-                explanation: "The World Economic Forum's Future of Jobs Report is published bi-annually (every two years)."
-            },
-            {
-                question: "Which data partnerships enhanced the Future of Jobs Report 2025?",
-                answers: ["Only ADP", "ADP, Coursera, Indeed and LinkedIn", "Only LinkedIn", "Only Coursera"],
-                correct: 1,
-                explanation: "The report includes research collaborations and data partnerships with ADP, Coursera, Indeed and LinkedIn."
-            },
-            {
-                question: "What is the main challenge mentioned alongside technological advances?",
-                answers: ["Only economic volatility", "Only environmental challenges", "Multiple converging challenges", "Only societal expectations"],
+                question: "What is the average cost to acquire a new customer compared to retaining an existing one?",
+                answers: ["2x more", "5x more", "7x more", "10x more"],
                 correct: 2,
-                explanation: "Technological advances are converging with economic volatility, geoeconomic realignments, environmental challenges, and evolving societal expectations."
+                explanation: "It costs 7x more to acquire a new customer than to retain an existing one."
             },
             {
-                question: "What does the report emphasize as crucial for navigating future transitions?",
-                answers: ["Individual action only", "Government action only", "Multistakeholder agenda", "Business action only"],
+                question: "What percentage of customers will stop doing business with a company after just one bad experience?",
+                answers: ["25%", "40%", "60%", "80%"],
                 correct: 2,
-                explanation: "The report emphasizes the importance of an ambitious, multistakeholder agenda involving workers, businesses, governments, educators, and civil society."
+                explanation: "60% of customers will stop doing business after just one bad experience."
+            },
+            {
+                question: "How many people will a dissatisfied customer tell about their bad experience?",
+                answers: ["5 people", "9 people", "15 people", "20 people"],
+                correct: 2,
+                explanation: "A dissatisfied customer will tell 15 people about their bad experience."
+            },
+            {
+                question: "What is the most important factor in customer satisfaction?",
+                answers: ["Price", "Product quality", "Customer service", "Speed of delivery"],
+                correct: 2,
+                explanation: "Customer service is often cited as the most important factor in customer satisfaction."
+            },
+            {
+                question: "What percentage of customers expect companies to respond to their social media complaints within 1 hour?",
+                answers: ["25%", "42%", "60%", "75%"],
+                correct: 1,
+                explanation: "42% of customers expect companies to respond to social media complaints within 1 hour."
+            },
+            {
+                question: "What is the average customer lifetime value increase when companies focus on customer experience?",
+                answers: ["10%", "25%", "40%", "60%"],
+                correct: 2,
+                explanation: "Companies focusing on customer experience see an average 40% increase in customer lifetime value."
             }
         ]
     },
