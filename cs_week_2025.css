@@ -480,6 +480,13 @@ body {
     margin: 0;
 }
 
+.photo-placeholder small {
+    color: #6b7280;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    display: block;
+}
+
 .event-highlight {
     display: flex;
     align-items: center;
