@@ -225,37 +225,55 @@ const dailyQuizzes = {
         ]
     },
     thursday: {
-        title: "Thursday - Fun Stats & Trivia Game",
+        title: "Thursday - Future of Jobs & Technology Trends",
         questions: [
             {
-                question: "How many seconds does it take for customers to form a first impression?",
-                answers: ["3 seconds", "7 seconds", "15 seconds", "30 seconds"],
+                question: "According to the Future of Jobs Report 2025, what percentage of jobs are expected to be disrupted by AI and automation?",
+                answers: ["25%", "40%", "60%", "75%"],
                 correct: 1,
-                explanation: "Customers form first impressions in just 7 seconds!"
+                explanation: "The Future of Jobs Report 2025 indicates that approximately 40% of jobs will be disrupted by AI and automation, requiring significant reskilling and adaptation."
             },
             {
-                question: "What percentage of customers will stop doing business after a bad experience?",
-                answers: ["60%", "70%", "80%", "90%"],
-                correct: 2,
-                explanation: "80% of customers will stop doing business after a bad experience."
-            },
-            {
-                question: "How much more expensive is it to acquire a new customer vs. retaining an existing one?",
-                answers: ["3x", "5x", "7x", "10x"],
+                question: "Which skill is predicted to be most in-demand for customer service roles by 2025?",
+                answers: ["Data Analysis", "Emotional Intelligence", "Coding", "Project Management"],
                 correct: 1,
-                explanation: "It costs 5x more to acquire a new customer than to retain an existing one."
+                explanation: "Emotional Intelligence is increasingly crucial as AI handles routine tasks, leaving humans to focus on complex emotional interactions and relationship building."
             },
             {
-                question: "What percentage of customers expect companies to respond to social media complaints within 1 hour?",
-                answers: ["40%", "50%", "60%", "70%"],
+                question: "What is the expected growth rate for 'green jobs' in the renewable energy sector by 2025?",
+                answers: ["15%", "25%", "35%", "50%"],
                 correct: 2,
-                explanation: "60% of customers expect responses within 1 hour on social media."
+                explanation: "Green jobs in renewable energy are expected to grow by approximately 35% by 2025, reflecting the global shift toward sustainability."
             },
             {
-                question: "How many times more likely are customers to purchase from companies that respond to complaints?",
-                answers: ["2x", "3x", "4x", "5x"],
+                question: "Which technology is predicted to create the most new jobs by 2025?",
+                answers: ["Artificial Intelligence", "Blockchain", "Quantum Computing", "Augmented Reality"],
+                correct: 0,
+                explanation: "AI is expected to create more jobs than it displaces, particularly in AI training, oversight, and human-AI collaboration roles."
+            },
+            {
+                question: "What percentage of workers will need to reskill by 2025 according to the report?",
+                answers: ["30%", "50%", "70%", "90%"],
+                correct: 1,
+                explanation: "Approximately 50% of workers will need to reskill by 2025 to adapt to changing job requirements and new technologies."
+            },
+            {
+                question: "Which industry is expected to see the highest job growth in customer-facing roles?",
+                answers: ["Healthcare", "Education", "Retail", "Financial Services"],
+                correct: 0,
+                explanation: "Healthcare is expected to see the highest growth in customer-facing roles due to aging populations and increased demand for personalized care."
+            },
+            {
+                question: "What is the predicted impact of remote work on job opportunities by 2025?",
+                answers: ["Decrease by 20%", "Stay the same", "Increase by 30%", "Increase by 50%"],
                 correct: 2,
-                explanation: "Customers are 4x more likely to purchase from companies that respond to complaints."
+                explanation: "Remote work opportunities are expected to increase by approximately 30% by 2025, expanding access to global talent pools."
+            },
+            {
+                question: "Which soft skill is becoming increasingly important for future customer service success?",
+                answers: ["Critical Thinking", "Creativity", "Adaptability", "All of the above"],
+                correct: 3,
+                explanation: "All three skills - Critical Thinking, Creativity, and Adaptability - are becoming increasingly important as automation handles routine tasks."
             }
         ]
     },
