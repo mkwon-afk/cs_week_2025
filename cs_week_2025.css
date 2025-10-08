@@ -441,8 +441,15 @@ body {
     font-weight: 700;
 }
 
-.event-photo {
+.event-photos {
     margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.event-photo {
+    margin: 0;
     text-align: center;
 }
 
