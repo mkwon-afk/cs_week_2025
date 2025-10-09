@@ -98,10 +98,35 @@ function getDayName(day) {
     return dayNames[day] || 'monday';
 }
 
-// Initialize quiz availability when page loads
+// Initialize word cloud interactions when page loads
 document.addEventListener('DOMContentLoaded', function() {
     checkQuizAvailability();
+    initializeWordCloud();
 });
+
+// Word Cloud Interactive Functionality
+function initializeWordCloud() {
+    const words = document.querySelectorAll('.word');
+    const contextDisplay = document.querySelector('.context-display');
+    const contextText = document.querySelector('.context-text');
+    
+    words.forEach(word => {
+        word.addEventListener('mouseenter', function() {
+            const context = this.getAttribute('data-context');
+            if (context) {
+                contextText.innerHTML = `<span class="context-quote">${context}</span>`;
+                contextDisplay.style.transform = 'scale(1.02)';
+                contextDisplay.style.boxShadow = '0 12px 35px rgba(220, 38, 38, 0.2)';
+            }
+        });
+        
+        word.addEventListener('mouseleave', function() {
+            contextText.innerHTML = 'Hover over words to see what our team really thinks about our service from a customer\'s perspective...';
+            contextDisplay.style.transform = 'scale(1)';
+            contextDisplay.style.boxShadow = '0 8px 25px rgba(220, 38, 38, 0.1)';
+        });
+    });
+}
 
 // Daily Quiz Questions for Customer Service Week 2025
 const dailyQuizzes = {

@@ -748,6 +748,37 @@ body {
     padding: 0.4rem 1rem;
 }
 
+.context-display {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    border: 2px solid #dc2626;
+    box-shadow: 0 8px 25px rgba(220, 38, 38, 0.1);
+}
+
+.context-text {
+    font-size: 1.1rem;
+    color: #dc2626;
+    font-weight: 600;
+    margin: 0;
+    font-style: italic;
+}
+
+.context-quote {
+    font-size: 1.2rem;
+    color: #374151;
+    font-weight: 500;
+    margin: 1rem 0 0 0;
+    line-height: 1.6;
+    padding: 1rem;
+    background: rgba(220, 38, 38, 0.05);
+    border-left: 4px solid #dc2626;
+    border-radius: 8px;
+    font-style: italic;
+}
+
 /* Footer */
 .footer {
     background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
