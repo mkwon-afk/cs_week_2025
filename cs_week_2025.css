@@ -518,6 +518,98 @@ body {
     font-size: 1.2rem;
 }
 
+/* Customer Journey Insights Section */
+.journey-insights-section {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    padding: 4rem 0;
+    border-top: 3px solid #dc2626;
+    border-bottom: 3px solid #dc2626;
+}
+
+.insights-intro {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    border: 2px solid #dc2626;
+    box-shadow: 0 10px 30px rgba(220, 38, 38, 0.1);
+}
+
+.insights-intro p {
+    font-size: 1.2rem;
+    color: #4b5563;
+    margin: 0;
+}
+
+.insights-intro strong {
+    color: #dc2626;
+    font-weight: 700;
+}
+
+.insights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.insight-category {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(220, 38, 38, 0.1);
+    border: 2px solid #fecaca;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.insight-category::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #dc2626, #ef4444, #dc2626);
+}
+
+.insight-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(220, 38, 38, 0.2);
+    border-color: #dc2626;
+}
+
+.insight-category h3 {
+    color: #dc2626;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 2px 4px rgba(220, 38, 38, 0.1);
+}
+
+.insight-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.insight-item {
+    background: rgba(220, 38, 38, 0.05);
+    border-left: 4px solid #dc2626;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #4b5563;
+    line-height: 1.6;
+    font-style: italic;
+    transition: all 0.3s ease;
+}
+
+.insight-item:hover {
+    background: rgba(220, 38, 38, 0.1);
+    transform: translateX(5px);
+}
+
 /* Footer */
 .footer {
     background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
