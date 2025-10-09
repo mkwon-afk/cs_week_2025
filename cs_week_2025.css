@@ -376,6 +376,16 @@ body {
     margin-top: 2rem;
 }
 
+.emea-row {
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.emea-card {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .office-event-card {
     background: rgba(255, 255, 255, 0.95);
     border-radius: 15px;
