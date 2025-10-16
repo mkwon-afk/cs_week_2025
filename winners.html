@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Week 2025 Lucky Draw Winners - Red Hat</title>
+    <link rel="stylesheet" href="cs_week_2025.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .winners-hero {
+            padding: 4rem 0;
+            text-align: center;
+            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 50%, #991b1b 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .winners-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.2)"/><circle cx="80" cy="40" r="1.5" fill="rgba(255,255,255,0.2)"/><circle cx="40" cy="80" r="1" fill="rgba(255,255,255,0.2)"/></svg>');
+            animation: sparkle 3s ease-in-out infinite;
+        }
+
+        .winners-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .winners-hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 1rem;
+            animation: titleGlow 2s ease-in-out infinite;
+        }
+
+        .winners-hero p {
+            font-size: 1.3rem;
+            color: #fef3c7;
+            margin-bottom: 2rem;
+        }
+
+        .celebration-icons {
+            font-size: 3rem;
+            margin: 2rem 0;
+            animation: bounce 1s ease-in-out infinite;
+        }
+
+        .winners-section {
+            padding: 4rem 0;
+            background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+        }
+
+        .winner-category {
+            margin-bottom: 3rem;
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(220, 38, 38, 0.1);
+            border-left: 5px solid #dc2626;
+        }
+
+        .category-title {
+            font-size: 1.8rem;
+            color: #dc2626;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .category-icon {
+            font-size: 2rem;
+        }
+
+        .winners-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .winner-card {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            padding: 1.5rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(220, 38, 38, 0.1);
+            transition: all 0.3s ease;
+            border: 2px solid rgba(220, 38, 38, 0.1);
+        }
+
+        .winner-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(220, 38, 38, 0.2);
+            border-color: #dc2626;
+        }
+
+        .winner-position {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .winner-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 0.5rem;
+        }
+
+        .winner-prize {
+            font-size: 1rem;
+            color: #dc2626;
+            font-weight: 600;
+        }
+
+        .congratulations-section {
+            padding: 3rem 0;
+            text-align: center;
+            background: white;
+        }
+
+        .congratulations-section h2 {
+            font-size: 2rem;
+            color: #dc2626;
+            margin-bottom: 1rem;
+        }
+
+        .congratulations-section p {
+            font-size: 1.1rem;
+            color: #6b7280;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            line-height: 1.7;
+        }
+
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3);
+        }
+
+        .back-button:hover {
+            background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(220, 38, 38, 0.4);
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        @keyframes titleGlow {
+            0%, 100% { text-shadow: 0 0 20px rgba(255, 255, 255, 0.5); }
+            50% { text-shadow: 0 0 30px rgba(255, 255, 255, 0.8); }
+        }
+
+        @keyframes sparkle {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Winners Hero Section -->
+    <section class="winners-hero">
+        <div class="container">
+            <div class="winners-content">
+                <div class="celebration-icons">🎉 🏆 🎊</div>
+                <h1>Customer Service Week 2025 Winners!</h1>
+                <p>Congratulations to all our amazing participants!</p>
+                <div class="celebration-icons">✨ 🌟 ⭐</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Winners Announcement Section -->
+    <section class="winners-section">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 3rem;">🏆 Lucky Draw Winners</h2>
+            
+            <!-- Grand Prize Winners -->
+            <div class="winner-category">
+                <h3 class="category-title">
+                    <span class="category-icon">👑</span>
+                    Grand Prize Winners
+                </h3>
+                <p style="color: #6b7280; margin-bottom: 1rem;">Highest scoring participants across all daily quizzes</p>
+                <div class="winners-list">
+                    <div class="winner-card">
+                        <div class="winner-position">🥇</div>
+                        <div class="winner-name">Winner Name 1</div>
+                        <div class="winner-prize">$200 Gift Card</div>
+                    </div>
+                    <div class="winner-card">
+                        <div class="winner-position">🥈</div>
+                        <div class="winner-name">Winner Name 2</div>
+                        <div class="winner-prize">$150 Gift Card</div>
+                    </div>
+                    <div class="winner-card">
+                        <div class="winner-position">🥉</div>
+                        <div class="winner-name">Winner Name 3</div>
+                        <div class="winner-prize">$100 Gift Card</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Daily Quiz Winners -->
+            <div class="winner-category">
+                <h3 class="category-title">
+                    <span class="category-icon">📚</span>
+                    Monday - History & Fun Facts Winners
+                </h3>
+                <div class="winners-list">
+                    <div class="winner-card">
+                        <div class="winner-position">🏆</div>
+                        <div class="winner-name">Winner Name</div>
+                        <div class="winner-prize">$50 Prize</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="winner-category">
+                <h3 class="category-title">
+                    <span class="category-icon">💭</span>
+                    Tuesday - Customer Service Philosophy Winners
+                </h3>
+                <div class="winners-list">
+                    <div class="winner-card">
+                        <div class="winner-position">🏆</div>
+                        <div class="winner-name">Winner Name</div>
+                        <div class="winner-prize">$50 Prize</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="winner-category">
+                <h3 class="category-title">
+                    <span class="category-icon">🎬</span>
+                    Wednesday - Pop Culture & Movies Winners
+                </h3>
+                <div class="winners-list">
+                    <div class="winner-card">
+                        <div class="winner-position">🏆</div>
+                        <div class="winner-name">Winner Name</div>
+                        <div class="winner-prize">$50 Prize</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="winner-category">
+                <h3 class="category-title">
+                    <span class="category-icon">📊</span>
+                    Thursday - Fun Stats & Trivia Winners
+                </h3>
+                <div class="winners-list">
+                    <div class="winner-card">
+                        <div class="winner-position">🏆</div>
+                        <div class="winner-name">Winner Name</div>
+                        <div class="winner-prize">$50 Prize</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="winner-category">
+                <h3 class="category-title">
+                    <span class="category-icon">🎩</span>
+                    Friday - Red Hat Legends Winners
+                </h3>
+                <div class="winners-list">
+                    <div class="winner-card">
+                        <div class="winner-position">🏆</div>
+                        <div class="winner-name">Winner Name</div>
+                        <div class="winner-prize">$50 Prize</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Congratulations Section -->
+    <section class="congratulations-section">
+        <div class="container">
+            <h2>🎊 Congratulations to All Participants! 🎊</h2>
+            <p>Thank you to everyone who participated in Customer Service Week 2025! Your enthusiasm, creativity, and dedication made this event truly special. Whether you won a prize or not, you're all champions in our book!</p>
+            <p style="margin-bottom: 2rem;">Winners will be contacted via email with details on how to claim their prizes.</p>
+            <a href="index.html" class="back-button">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to CS Week Home</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="inspirational-quote">
+                    <blockquote>
+                        "Customer service shouldn't just be a department; it should be the entire company."
+                    </blockquote>
+                    <cite>- Tony Hsieh</cite>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Red Hat Customer Service Week. Celebrating excellence in service.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
