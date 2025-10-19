@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Week 2025 Winners Banner</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .banner {
+            width: 800px;
+            height: 400px;
+            background: linear-gradient(135deg, #dc2626 0%, #b91c1b 50%, #991b1b 100%);
+            position: relative;
+            overflow: hidden;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        
+        .banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="3" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="40" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="80" r="2.5" fill="rgba(255,255,255,0.1)"/><circle cx="60" cy="20" r="1.5" fill="rgba(255,255,255,0.1)"/><circle cx="20" cy="70" r="2" fill="rgba(255,255,255,0.1)"/></svg>');
+            animation: sparkle 3s ease-in-out infinite;
+        }
+        
+        .banner-content {
+            position: relative;
+            z-index: 2;
+            padding: 40px;
+        }
+        
+        .celebration-icons {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            animation: bounce 2s ease-in-out infinite;
+        }
+        
+        .main-title {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            animation: titleGlow 2s ease-in-out infinite;
+        }
+        
+        .subtitle {
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+            color: #fef3c7;
+            font-weight: 600;
+        }
+        
+        .event-info {
+            font-size: 1.3rem;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px 30px;
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            margin-bottom: 20px;
+        }
+        
+        .winners-highlight {
+            font-size: 1.5rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            color: #1f2937;
+            padding: 15px 30px;
+            border-radius: 25px;
+            box-shadow: 0 8px 25px rgba(251, 191, 36, 0.4);
+            animation: pulse 2s ease-in-out infinite;
+        }
+        
+        .red-hat-logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 2rem;
+            opacity: 0.8;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        @keyframes titleGlow {
+            0%, 100% { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 255, 255, 0.3); }
+            50% { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 30px rgba(255, 255, 255, 0.6); }
+        }
+        
+        @keyframes sparkle {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        /* Print styles for saving as image */
+        @media print {
+            body {
+                background: white;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .banner {
+                width: 800px;
+                height: 400px;
+                margin: 0;
+                box-shadow: none;
+                border-radius: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="red-hat-logo">🔴</div>
+        
+        <div class="banner-content">
+            <div class="celebration-icons">🎉 🏆 🎊</div>
+            
+            <h1 class="main-title">CS Week 2025</h1>
+            <h2 class="subtitle">Winners Announced!</h2>
+            
+            <div class="event-info">
+                📅 Event Completed: October 6-10, 2025
+            </div>
+            
+            <div class="winners-highlight">
+                🎯 Lucky Draw Winners & Special Awards
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Add some interactive sparkles
+        function createSparkle() {
+            const sparkle = document.createElement('div');
+            sparkle.innerHTML = '✨';
+            sparkle.style.position = 'absolute';
+            sparkle.style.left = Math.random() * 100 + '%';
+            sparkle.style.top = Math.random() * 100 + '%';
+            sparkle.style.fontSize = '1.5rem';
+            sparkle.style.opacity = '0.7';
+            sparkle.style.animation = 'sparkle 1.5s ease-in-out infinite';
+            sparkle.style.pointerEvents = 'none';
+            
+            document.querySelector('.banner').appendChild(sparkle);
+            
+            setTimeout(() => {
+                sparkle.remove();
+            }, 3000);
+        }
+        
+        // Create sparkles periodically
+        setInterval(createSparkle, 500);
+    </script>
+</body>
+</html>
