@@ -1,79 +1,51 @@
-Subject: 🏆 CS Week 2025 Lucky Draw Winners Announced! 🎉
+Subject: 🎉 CS Week 2025 Lucky Draw Winners Announced! 🏆
 
-Dear Red Hat Team,
+Dear Red Hat Customer Service Team,
 
-🎊 CONGRATULATIONS TO OUR CUSTOMER SERVICE WEEK 2025 WINNERS! 🎊
+We're thrilled to announce the winners of our Customer Service Week 2025 Lucky Draw! 🎊
 
-We are thrilled to announce the winners of our Customer Service Week 2025 Lucky Draw! 
+After an incredible week filled with creativity, engagement, and amazing participation, we're excited to reveal who won our lucky draw prizes!
 
-Thank you to EVERYONE who participated in our daily quizzes, shared creative superhero ideas, and contributed insights to make this week truly special. Your enthusiasm and engagement made this event unforgettable!
+🏆 LUCKY DRAW WINNERS - Most Participation & High Scores (50 Points Each):
+• Pramod Suryawanshi
+• Mie Yamamoto  
+• Saylee Garule
+• Jana Kohoutkova
+• Priyanka Kanthale
+• Prasanna Bhoite
+• Saylee Garule
+• Geraldine Brodkorb
+• Chaerin Kim
+• Brian Chae
+• Kushagra Kulshreshtha
 
-🏆 VIEW ALL WINNERS:
-https://mkwon-afk.github.io/cs_week_2025/winners.html
+🌟 SPECIAL RECOGNITION AWARDS (30 Points Each):
 
-🏆 AWARD CATEGORIES:
+🦸‍♂️ Most Creative Costume Feature Award:
+• Madison Scott - "Dr. Clarify" (Shoots a beam that eliminates all jargon, confusion, and bureaucratic red tape)
+• Yiyong He - "Cloak of Tranquility" (Emits a calming aura that de-escalates tension)
 
-1. ⭐ Most Engaged Participant Award
-   Recognizing outstanding participation across all CS Week activities
+💡 Insightful Customer Journey Redesign Award:
+• Anne Gaertner - Customer-centric transformation ideas focusing on cross-collaboration
 
-2. 🦸‍♂️ Most Creative Costume Feature Award
-   Celebrating the most innovative Customer Service Superhero costume idea
+🌟 Self-Reflection Excellence Award:
+• Janmejay Kale - Outstanding service excellence review
+• Tiago Thompson - Exceptional service delivery feedback
 
-3. 💡 Insightful Customer Journey Redesign Award
-   Honoring valuable and actionable insights for improving our customer journey
+🤝 Special Collaboration Award:
+• Maria Escanferla - Proactive collaboration excellence (30 Points)
 
-4. 🔄 Swap the Role Award
-   Appreciating thoughtful perspective from walking in our customers' shoes
+🎯 IMPORTANT NOTES:
+• All winners were selected through our lucky draw system based on participation and high quiz scores
+• Winners will be contacted individually via email with prize redemption details
+• Prizes will be distributed within the next 2 weeks
 
-5. 🌟 Self-Reflection Excellence Award
-   Recognizing outstanding self-awareness and honest customer feedback
+🎊 Congratulations to ALL participants! Whether you won a prize or not, your enthusiasm, creativity, and dedication made CS Week 2025 truly special. You're all champions in our book!
 
-All winners will receive detailed instructions via email on how to claim their prizes
-
-📧 WINNERS - CHECK YOUR EMAIL:
-If you're a winner, you'll receive a separate email with:
-• Prize details and claim instructions
-• Redemption process
-• Deadline for claiming your prize
-
-🌟 TO ALL PARTICIPANTS:
-Whether you won a prize or not, you're ALL champions in our book! Your creativity with the superhero costumes, thoughtful insights on customer journey improvements, and honest perspectives on our service help us continuously improve.
-
-📊 BY THE NUMBERS - CS WEEK 2025:
-• 54+ Creative Superhero Costume Ideas
-• 100+ Customer Journey Insights
-• 200+ Swap Roles Perspectives
-• Global office celebrations across Japan, NASA, and EMEA
-• Hundreds of quiz participants across all 5 daily themes
-
-💡 HIGHLIGHTS FROM THE WEEK:
-• Monday: History & Fun Facts Quiz
-• Tuesday: Customer Service Philosophy Challenge
-• Wednesday: Pop Culture & Movies Trivia
-• Thursday: Fun Stats & Trivia Game
-• Friday: Red Hat Legends Quiz
-
-🙏 THANK YOU:
-A huge thank you to everyone who made Customer Service Week 2025 a success:
-• Quiz participants who tested their knowledge
-• Creative minds who shared superhero costume ideas
-• Team members who provided valuable customer journey insights
-• Associates who shared office celebration photos
-• Everyone who engaged and celebrated with us!
-
-Your participation, creativity, and dedication to customer excellence is what makes Red Hat's support team truly exceptional.
-
-Congratulations again to all our winners, and thank you to everyone who participated!
+Thank you for making Customer Service Week 2025 an incredible success!
 
 Best regards,
-Customer Service Week 2025 Team
-Red Hat
+The CS Week 2025 Organizing Team
 
 ---
-
-P.S. Visit our CS Week page to:
-• View all winners: https://mkwon-afk.github.io/cs_week_2025/winners.html
-• Explore superhero ideas: https://mkwon-afk.github.io/cs_week_2025/superhero-showcase.html
-• Read customer insights: https://mkwon-afk.github.io/cs_week_2025/#customer-journey-insights
-• See office celebrations: https://mkwon-afk.github.io/cs_week_2025/#office-events
-
+"Customer service shouldn't just be a department; it should be the entire company." - Tony Hsieh

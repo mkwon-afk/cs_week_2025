@@ -1,87 +1,26 @@
 // Customer Service Week 2025 Interactive Features
 
-// Date checking logic for quiz availability
+// Date checking logic for quiz availability - EVENT NOW FINISHED
 function checkQuizAvailability() {
-    // Get current date in multiple time zones for global coverage
-    const today = new Date();
-    
-    // UTC time
-    const utcDate = today.toISOString().split('T')[0];
-    
-    // APAC time zones (UTC+8 to UTC+12)
-    const apacTimezones = [8, 9, 10, 11, 12]; // Beijing, Tokyo, Sydney, etc.
-    const apacDates = apacTimezones.map(offset => {
-        const apacTime = new Date(today.getTime() + (offset * 60 * 60 * 1000));
-        return apacTime.toISOString().split('T')[0];
-    });
-    
-    // NASA time zones (typically UTC-5 to UTC+0, covering EST to UTC)
-    const nasaTimezones = [-5, -4, -3, -2, -1, 0]; // EST, EDT, etc.
-    const nasaDates = nasaTimezones.map(offset => {
-        const nasaTime = new Date(today.getTime() + (offset * 60 * 60 * 1000));
-        return nasaTime.toISOString().split('T')[0];
-    });
-    
-    // Get all quiz buttons
+    // Customer Service Week 2025 has ended - all quizzes are now closed
     const quizButtons = document.querySelectorAll('.quiz-btn[data-date]');
     
     quizButtons.forEach(button => {
-        const quizDate = button.getAttribute('data-date');
+        // Mark all quizzes as closed since the event has finished
+        button.textContent = 'Quiz Closed';
+        button.classList.add('quiz-closed');
+        button.classList.remove('coming-soon');
+        button.disabled = true;
         
-        // Check if quiz is available in any of the time zones
-        const isAvailableUTC = utcDate >= quizDate;
-        const isAvailableAPAC = apacDates.some(date => date >= quizDate);
-        const isAvailableNASA = nasaDates.some(date => date >= quizDate);
+        // Remove onclick for button elements
+        if (button.tagName === 'BUTTON') {
+            button.removeAttribute('onclick');
+        }
         
-        // Quiz is available if it's available in any time zone
-        const isAvailable = isAvailableUTC || isAvailableAPAC || isAvailableNASA;
-        
-        if (!isAvailable) {
-            // Quiz is not yet available
-            button.textContent = 'Coming Soon';
-            button.classList.add('coming-soon');
-            button.disabled = true;
-            
-            // Remove onclick for button elements
-            if (button.tagName === 'BUTTON') {
-                button.removeAttribute('onclick');
-            }
-            
-            // Remove href for anchor elements
-            if (button.tagName === 'A') {
-                button.removeAttribute('href');
-                button.style.pointerEvents = 'none';
-            }
-        } else {
-            // Quiz is available
-            button.textContent = 'Start Quiz';
-            button.classList.remove('coming-soon');
-            button.disabled = false;
-            
-            // Restore functionality for buttons
-            if (button.tagName === 'BUTTON') {
-                const day = quizDate.split('-')[2]; // Extract day
-                const dayName = getDayName(parseInt(day));
-                button.setAttribute('onclick', `startDailyQuiz('${dayName.toLowerCase()}')`);
-            }
-            
-            // Restore href for anchor elements
-            if (button.tagName === 'A') {
-                const quizDate = button.getAttribute('data-date');
-                if (quizDate === '2025-10-06') {
-                    button.setAttribute('href', 'https://docs.google.com/forms/d/e/1FAIpQLScheemulqnax2qGcfzygXhQNFCEP_luNnFkLqN818qkddzQrA/viewform?usp=send_form');
-                } else if (quizDate === '2025-10-07') {
-                    button.setAttribute('href', 'https://forms.gle/5ZgHK8sQbkJkxwVz7');
-                } else if (quizDate === '2025-10-08') {
-                    button.setAttribute('href', 'https://forms.gle/tcretwSf3VKDW1PP6');
-                } else if (quizDate === '2025-10-09') {
-                    button.setAttribute('href', 'https://forms.gle/FgFpafQBpS4iMAt37');
-                } else if (quizDate === '2025-10-10') {
-                    button.setAttribute('href', 'https://forms.gle/9B1Y7UqzmUsMRMzX7');
-                }
-                button.setAttribute('target', '_blank');
-                button.style.pointerEvents = 'auto';
-            }
+        // Remove href for anchor elements
+        if (button.tagName === 'A') {
+            button.removeAttribute('href');
+            button.style.pointerEvents = 'none';
         }
     });
 }
